@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+body {
+  color: #ff5959;
+  background-color: #001233;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+  
+.logo {
+  font-weight: 900;
+  font-size: 4vw;
+  position: absolute;
+  left: 1vw;
+  top: 0;
+}
+
+.container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 48px;
+}
+
+.login {
+  width: fit-content;
+}
+
+.formularz {
+  border: #efddc5 3px solid;
+  border-radius: 7px;
+  display: flex;
+}
+
+.text {
+  width: 250px;
+  font-size: 30px;
+  margin: 20px 0 0 20px;
+}
+
+.form {
+  width: 250px;
+  font-size: 30px;
+  margin: 20px 20px 30px 0;
+}
+
+input {
+  background-color: #ff5959;
+  color: #001233;
+  font-size: 20px;
+  width: 245px;
+  border: 0;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  border: #efddc5 2px solid;
+}
+
+.submit {
+  margin-right: 1px;
+  width: 130px;
+  height: 30px;
+  float: right;
+  color: #001233;
+}
+
+.submit:focus {
+  border: 0;
+}
+
+.submit:hover {
+  background-color: #efddc5;
+}
+
+a {
+  color: #efddc5;
+  font-size: 15px;
+}
+
+a:hover {
+  color: #ff5959;
+}
