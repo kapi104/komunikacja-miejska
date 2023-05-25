@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="logowanie.js"></script>
 </head>
 
 <body>
@@ -15,20 +16,12 @@
   </div>
   <div class="container">
     <div class="login">
-      <h1>Logowanie</h1>
+      <h1 class="title">Logowanie</h1>
       <div class="formularz">
-        <div class="text">
-          e-mail: <br><br>
-          hasło: <br><br>
-          <a href="">rejestracja</a>
-        </div>
-        <div class="form">
-          <form action="login.php" method="post">
-            <input type="text"><br><br>
-            <input type="password"><br><br>
-            <input type="submit" value="zaloguj" class="submit">
-          </form>
-        </div>
+        
+        <script>
+          document.querySelector('.formularz').innerHTML = loginScript;
+        </script>
       </div>
     </div>
   </div>

@@ -28,14 +28,19 @@ h1 {
   font-size: 48px;
 }
 
-.login {
-  width: fit-content;
-}
+
 
 .formularz {
   border: #efddc5 3px solid;
   border-radius: 7px;
-  display: flex;
+  padding: 20px;
+  width: 1000px;
+}
+
+
+
+form {
+  width: 1000px;
 }
 
 .text {
