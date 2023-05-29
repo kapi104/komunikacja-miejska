@@ -1,15 +1,31 @@
 let loginScript = 
         `<div class="text">
-          e-mail: <br><br>
-          hasło: <br><br>
+          E-mail: <br><br>
+          Hasło: <br><br>
           </div>
           <div class="form">
-          <form action="login.php" method="post">
-          <input type="text"><br><br>
-          <input type="password"><br><br>
+          <form action="" method="post">
+          <input type="text" name="mail"><br><br>
+          <input type="password" name="pass"><br><br>
           <div class="pole">
-            <a href="">rejestracja</a>
-              <input type="submit" value="zaloguj" class="submit">
+          <input type="submit" value="zaloguj" class="submit">
           </div>
           </form>
         </div>`
+
+        let registerScript = 
+        `<div class="text">
+        E-mail: <br><br>
+        Hasło: <br><br>
+        Powtórz hasło: <br><br>    
+        </div>
+        <div class="form">
+        <form action="" method="post">
+        <input type="text" name="mail"><br><br>
+        <input type="password" name="pass"><br><br>
+        <input type="password" name="rpass"><br><br>
+        <div class="pole">
+        <input type="submit" value="zaloguj" class="submit">
+        </div>
+        </form>
+      </div>`
