@@ -13,7 +13,7 @@
   <div class="tcontainer">
     <div class="tnav">
       <div class="header">
-        LOGO
+        Komunikacja Miejska
       </div>
       <div class="link"><a href="tabela1.php">Kierowcy</a></div>
       <div class="link"><a href="tabela2.php">Autobusy</a></div>
